@@ -19,5 +19,9 @@ def meow():
     print(mime_url)
     return mime_url
 
+@app.route("/coffee")
+def coffee():
+  return "thanks :)"
+
 if __name__ == "__main__":
     app.run()
