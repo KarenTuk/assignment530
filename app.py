@@ -7,6 +7,8 @@ app = Flask(__name__)
 def index():
     return render_template("index.html")
 
+
+
 @app.route('/meow',methods=["GET", "POST"])
 def meow():
     resp = requests.get("https://api.thecatapi.com/v1/images/search")
