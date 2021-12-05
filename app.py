@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/',methods=["GET"])
 def index():
-    return render_template("tutorial.html")
+    return render_template("result.html")
 
 @app.route('/meow',methods=["GET", "POST"])
 def meow():
