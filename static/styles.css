@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Raleway:wght@300&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    list-style-type: none;
+    color: whitesmoke;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li{
+    margin: 0 30px;
+    list-style-type: none;
+}
+
+header{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://cdn.discordapp.com/attachments/882142766669385730/916870177138810890/pexels-gradienta-7135116.jpg");
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+}
+
+.header-content{
+    margin-bottom: 150px;
+    text-align: center;
+}
+
+.header-content h1{
+    font-size: 8vmin;
+
+}
+
+body, html{
+    overflow-x: hidden;
+}
+
+.img-class{
+    max-height: 500px; display: block; margin-left: auto; margin-right: auto; border-radius: 8px;
+}

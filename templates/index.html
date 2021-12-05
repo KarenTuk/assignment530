@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>530 Assignment</title>
+    <link rel= "stylesheet" href="{{url_for('static', filename='styles.css')}}"> 
+    <script src="https://unpkg.com/vue@3.0.2"></script>
+
+  </head>
+
+    <h1>
+      Random Cat Meme Generator
+      <br>
+    </h1>
+    <header>    
+    <div id="app">
+        <form @submit.prevent="submitForm">
+          Top Text: <input v-model="top"/> &emsp;
+          Bottom Text: <input v-model="bot"/> &emsp;
+          <button type="submit">Submit</button>
+          
+      </form>
+      <br><br>
+      <img class=img-class :src="image">
+    </div>
+    
+    <script src="{{url_for('static', filename='Vue.js')}}"></script>
+  </header>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
