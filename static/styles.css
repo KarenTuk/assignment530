@@ -20,7 +20,7 @@
 
 .nav-links{
     display: flex;
-    align-items: center;
+    align-items: left;
 }
 
 .nav-links li{
