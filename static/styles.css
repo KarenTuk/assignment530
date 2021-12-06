@@ -3,7 +3,7 @@
 *{
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Poppins';
+    font-family: 'Poppins', 'Helvetica Neue', sans-serif;
 }
 
 .navbar{

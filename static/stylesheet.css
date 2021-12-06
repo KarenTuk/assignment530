@@ -1,4 +1,10 @@
 /* credits.html */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Raleway:wght@300&display=swap');
+
+* {
+    font-family: 'Poppins', 'Helvetica Neue', sans-serif;
+}
+
 #refs {
     list-style-type: none;
 }
@@ -50,12 +56,12 @@
 }
 
 a:link{
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
 a:visited{
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
