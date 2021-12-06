@@ -20,7 +20,8 @@
 
 .nav-links{
     display: flex;
-    align-items: right;
+    align-items: center;
+    float:right;
 }
 
 .nav-links li{
