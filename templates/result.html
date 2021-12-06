@@ -3,9 +3,14 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>530 Assignment</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page 4: Result</title>
+
     <link rel= "stylesheet" href="{{url_for('static', filename='styles.css')}}"> 
+
     <script src="https://unpkg.com/vue@3.0.2"></script>
+    <script src="https://unpkg.com/vue-router@4"></script>
+    
 
   </head>
 
@@ -19,14 +24,14 @@
           Top Text: <input v-model="top"/> &emsp;
           Bottom Text: <input v-model="bot"/> &emsp;
           <button type="submit">Submit</button>
-          
-      </form>
+        </form>
       <br><br>
       <img class=img-class :src="image">
     </div>
     
     <script src="{{url_for('static', filename='Vue.js')}}"></script>
   </header>
+
 </html>
 
 
