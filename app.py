@@ -54,7 +54,7 @@ def meow():
 
 @app.route("/coffee")
 def coffee():
-    return "thanks :)"
+    return "thanks :) 🤓"
 
 
 if __name__ == "__main__":
