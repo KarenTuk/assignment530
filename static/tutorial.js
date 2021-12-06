@@ -73,7 +73,7 @@ tutorial.component('tab-css', {
 
 tutorial.component('tab-vue', {
     template: `<div class="fw-tab">
-    <h2>Frontend: Vue.js <img class="vIcon" src="vue-icon.svg" alt="Vue Icon"></h2>
+    <h2>Frontend: Vue.js <img class="vIcon" src="../static/vue-icon.svg" alt="Vue Icon"></h2>
     <br>
     <p>Make a file called "Vue.js" and put it in the static directory.</p><br><br>
     <img src="https://media.discordapp.net/attachments/882142766669385730/917210844591448074/Screen_Shot_2021-12-05_at_7.28.22_PM.png">
@@ -94,7 +94,7 @@ tutorial.component('tab-vue', {
 
 tutorial.component('tab-flask', {
     template: `<div class="fw-tab">
-    <h2>Backend: Flask <img class="fIcon" src="flask-icon.svg" alt="Flask Icon"> </h2>
+    <h2>Backend: Flask <img class="fIcon" src="../static/flask-icon.svg" alt="Flask Icon"> </h2>
     <br><br>
     <img src="https://cdn.discordapp.com/attachments/882142766669385730/917218168546668554/Screen_Shot_2021-12-05_at_7.57.28_PM.png">
     <br><br>

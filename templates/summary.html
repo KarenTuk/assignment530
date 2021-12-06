@@ -6,13 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://unpkg.com/vue@3.0.2"></script>
-    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="../static/stylesheet.css">
     <title>Page 1: Summary</title>
 </head>
 <body id="index">
     <nav class="navbar">
         <!-- <h1 class="logo">CPS 530 PROJECT</h1>   -->
-        <ul class="nav-links">
+        <ul class="nav-links" style="color: black">
             <li><a href="/">Summary</a></li>
             <li><a href="/installation">Installation</a></li>
             <li><a href="/tutorial">Tutorial</a></li>
@@ -36,6 +36,7 @@
             <li class="inner" v-for="points in frame.descriptionCONS" v-if="frame.show">{{ points }}</li>
             </ul>
             
+
             <p :class="{ showing: frame.show}" @click="ShowDescription(frame)" v-if="frame.show">Collapse points</p>
             <p :class="{ notshowing: !frame.show}" @click="ShowDescription(frame)" v-if="!frame.show">View Points</p>
             
@@ -46,6 +47,6 @@
 
     </div>
     
-    <script src="summary.js"></script>
+    <script src="../static/summary.js"></script>
 </body>
 </html>

@@ -17,7 +17,7 @@ const install = Vue.createApp({
 
 install.component('tab-vue', {
     template: `<div class="fw-tab">
-    <h2>Frontend: Vue.js <img class="vIcon" src="vue-icon.svg" alt="Vue Icon"></h2>
+    <h2>Frontend: Vue.js <img class="vIcon" src="../static/vue-icon.svg" alt="Vue Icon"></h2>
     <br>
             <p>Vue is a modern and versatile front end JavaScript framework that 
                can be implemented into a project multiple ways depending on the needs 
@@ -40,14 +40,12 @@ install.component('tab-vue', {
                 <li>Within the head tag, copy the following script tag. Vue will be registered as a global variable.</li>
                 <p>For Vue 3: &lt;script src="https://unpkg.com/vue@3.0.2"&gt;&lt;/script&gt;</p>
                 <p>For Vue 2: &lt;script src="https://cdn.jsdelivr.net/npm/vue@2.6.14"&gt;&lt;/script&gt;</p>
-                
             </ol></div>`
-    
 })
 
 install.component('tab-flask', {
     template: `<div class="fw-tab">
-    <h2>Backend: Flask <img class="fIcon" src="flask-icon.svg" alt="Flask Icon"> </h2>
+    <h2>Backend: Flask <img class="fIcon" src="../static/flask-icon.svg" alt="Flask Icon"> </h2>
     <br>
             <p>Flask is a python web framework designed to enable developers to create and scale web 
                apps easily and quickly.</p>
@@ -62,7 +60,7 @@ install.component('tab-flask', {
 
 install.component('tab-heroku', {
     template: `<div class="fw-tab">
-    <h2>Server-Side: Heroku <img class="fIcon" src="heroku-icon.svg" alt="Heroku Icon"></h2>
+    <h2>Server-Side: Heroku <img class="fIcon" src="../static/heroku-icon.svg" alt="Heroku Icon"></h2>
     <br>
             <p>Heroku is a cloud platform service that supports several programming languages and allows developers to easily build, run, and operate applications in the cloud. In order to get it up and running, there are a few steps a user needs to follow.
             </p>
