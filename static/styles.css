@@ -29,6 +29,27 @@
     list-style-type: none;
 }
 
+a:link{
+    color: white;
+    text-decoration: none;
+}
+
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #42dbba;
+    text-decoration: none;
+}
+
+a:active{
+    color:#ff54b8;
+    text-decoration: none;
+}
+
+
 header{
     margin: 0;
     padding: 0;
