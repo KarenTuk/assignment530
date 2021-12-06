@@ -1,0 +1,155 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+h1:hover{
+    text-shadow: 2px 2px 5px rgb(255, 255, 255);
+}
+
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    list-style-type: none;
+    color: rgb(255, 255, 255);
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li{
+    margin: 0 30px;
+    list-style-type: none;
+}
+
+a:link{
+    color: white;
+    text-decoration: none;
+}
+
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #42dbba;
+    text-decoration: none;
+}
+
+a:active{
+    color:#ff54b8;
+    text-decoration: none;
+}
+
+
+
+header{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./bground.jpg');
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+}
+
+.header-content{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.header-content h1{
+    font-size: 8vmin;
+
+}
+
+.framework-tab, .cl-tab {
+    border: none;
+    border-radius: 2px;
+    padding: 40px 30px;
+    margin-top: 1em;
+    margin-bottom: 40px;
+    user-select: none;
+    overflow-x: auto;
+    font-weight:500;
+    
+    
+}
+
+.tab-button, .tab-buttonCL{
+    padding: 6px 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    cursor: pointer;
+    background: #42dbba;
+    margin-bottom: -1px;
+    margin-right: -1px;
+    font-weight: bold;
+    
+}
+  
+.tab-button:hover, .tab-buttonCL:hover{
+    background: #ff54b8;
+}
+  
+.tab-button.active, .tab-buttonCL.active{
+    background: #3f2aff;
+    color: white;
+    font-weight: bold;
+}
+  
+.fw-tab{
+    border: 1px solid rgb(0, 0, 0);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 0 30px 30px 30px;
+    background-color: black;
+    color: white;
+    min-height: 90vh;
+    box-shadow: 5px 10px 18px #3f2aff; 
+    
+}
+
+.fw-tab:hover{
+    box-shadow: 5px 10px 18px #ff54b8;
+}
+
+.concl-tab{
+    border: 1px solid rgb(0, 0, 0);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    min-height: 90vh;
+    box-shadow: 5px 10px 18px #ff54b8;
+}
+
+.concl-tab:hover{
+    box-shadow: 5px 10px 18px #3f2aff;
+}
+
+body, html{
+    overflow-x: hidden;
+}
+
+
+

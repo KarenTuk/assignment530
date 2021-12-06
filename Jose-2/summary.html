@@ -1,0 +1,51 @@
+<!-- Page 1 summary -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/vue@3.0.2"></script>
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>Page 1: Summary</title>
+</head>
+<body id="index">
+    <nav class="navbar">
+        <!-- <h1 class="logo">CPS 530 PROJECT</h1>   -->
+        <ul class="nav-links">
+            <li><a href="summary.html">Summary</a></li>
+            <li><a href="installation.html">Installation</a></li>
+            <li><a href="tutorial.html">Tutorial</a></li>
+            <li><a href="result.html">Result</a></li>
+            <li><a href="conclusion.html">Conclusion</a></li>
+            <li><a href="credits.html">Credits</a></li>
+        </u1>
+    </nav>
+    <div id="app"><br><br>
+        <h1>We Used the Following Frameworks:</h1>
+        <ul>
+            <li class="bruh" v-for="frame in frameworks">
+            <h2>{{ frame.end }}</h2>
+            <h3>Pros:</h3>
+            <ul>
+            <img id="chart" src="https://www.monterail.com/hs-fs/hubfs/xScreenshot,P202020-08-06,P20at,P2011.28.16.png,qwidth=666,aname=Screenshot,P202020-08-06,P20at,P2011.28.16.png.pagespeed.ic.grmY5Nspau.webp" alt="A chart">
+            <li class="inner" v-for="points in frame.descriptionPROS" v-if="frame.show">{{ points }}</li>
+            </ul>
+            <h3>Cons:</h3>
+            <ul>
+            <li class="inner" v-for="points in frame.descriptionCONS" v-if="frame.show">{{ points }}</li>
+            </ul>
+            
+            <p :class="{ showing: frame.show}" @click="ShowDescription(frame)" v-if="frame.show">Collapse points</p>
+            <p :class="{ notshowing: !frame.show}" @click="ShowDescription(frame)" v-if="!frame.show">View Points</p>
+            
+            <img id="frameworkspics" :src="frame.img_url">
+            <figcaption id="captions">Most-loved frameworks, libraries, and tools. Source: Stack Overflow Survey</figcaption>
+            </li>
+        </ul>
+
+    </div>
+    
+    <script src="summary.js"></script>
+</body>
+</html>

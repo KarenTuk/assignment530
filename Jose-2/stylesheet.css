@@ -1,0 +1,184 @@
+/* credits.html */
+#refs {
+    list-style-type: none;
+}
+#listings {
+    background-color: rgb(12, 217, 224);
+    text-align: center;
+}
+.girlpic {
+    max-width:200px;
+    width: auto;
+    height: auto;
+}
+
+#credits { 
+    color: #111; 
+    font-family: 'Helvetica Neue', sans-serif; 
+    font-size: 100px; 
+    font-weight: bold; 
+    letter-spacing: -1px; 
+    line-height: 1; 
+    text-align: center; 
+}
+#bod {
+    background-color: #08498a;
+}
+
+
+/* both */
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    list-style-type: none;
+    color: rgb(255, 255, 255);
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li{
+    margin: 0 30px;
+    list-style-type: none;
+}
+
+a:link{
+    color: white;
+    text-decoration: none;
+}
+
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #42dbba;
+    text-decoration: none;
+}
+
+a:active{
+    color:#ff54b8;
+    text-decoration: none;
+}
+
+
+
+/* index.html */
+
+.spacing {
+    /* width: 1%;  */
+    border-radius: 20px;
+    border: 2px solid rgb(2, 2, 5);
+    background-color: rgb(55, 229, 235);
+    margin-bottom: 20px;
+    /* max-width: 960px;  */
+    width: 700px; /* Can be in percentage also. */
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+    
+}
+#cen {
+    text-align: center;
+}
+
+.pspace{
+    margin: 20px;
+    font-size: 20px;
+}
+
+
+
+#index {
+    /* background: #eee; */
+    background: rgba(88, 236, 224, 0.933);
+    max-width: 1500px;
+    margin: 20px auto;
+}
+h1{
+    text-align: center;
+    font-size: xxx-large;
+}
+h2 {
+    text-align: center;
+    font-size: xx-large;
+
+}
+#inside {
+    background: #bbb;
+    /* text-align: center; */
+    float: right;
+    text-align: center;
+
+    /* width: 50
+    %; */
+}
+
+
+
+#chart {
+    border-radius: 20px;
+    margin-right: 150px;
+    float: right;
+    width: 500px;
+    height: 500px;
+    margin-bottom: 150px;
+    /* background-size: 500px 500px; */
+}
+
+
+
+
+
+
+
+
+.bruh {
+    list-style-type: none;
+    /* background: #ffff; */
+    background:rgba(173, 250, 243, 0.933);
+    margin: 20px auto;
+    padding: 10px 20px;
+    border-radius: 10px; 
+    /* display: flex;  */
+    align-items: center;
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.inner {
+    margin: 10px auto;
+    list-style-type: disc;
+}
+
+#frameworkspics {
+    margin: 20px auto;
+    height: 200px;
+    width: 200px;
+    padding-left: 20px
+    /* text-align: center; */
+}
+
+p.showing {
+    background-color: rgb(13, 213, 228);
+    width: 100px;
+}
+
+p.notshowing {
+    background-color: rgb(13, 213, 228);
+    width: 80px;
+}
+
+
+
+
+
