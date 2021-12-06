@@ -5,7 +5,28 @@ app = Flask(__name__)
 
 @app.route('/',methods=["GET"])
 def index():
+    return render_template("summary.html")
+
+@app.route('/installation',methods=["GET"])
+def installation():
+    return render_template("installation.html")
+
+@app.route('/tutorial',methods=["GET"])
+def tutorial():
+    return render_template("tutorial.html")
+
+@app.route('/result',methods=["GET"])
+def result():
     return render_template("result.html")
+
+@app.route('/conclusion',methods=["GET"])
+def conclusion():
+    return render_template("conclusion.html")
+
+@app.route('/credits',methods=["GET"])
+def credits():
+    return render_template("credits.html")
+
 
 @app.route('/meow',methods=["GET", "POST"])
 def meow():
